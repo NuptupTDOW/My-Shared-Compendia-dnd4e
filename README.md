@@ -1,4 +1,4 @@
-# My Shared Compendia
+# My Shared Compendia PF2e
 
 A Foundry VTT module to share Data between worlds via compendia for Pathfinder 2e worlds.
 
