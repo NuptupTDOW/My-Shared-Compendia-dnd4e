@@ -1,12 +1,12 @@
-# My Shared Compendia PF2e
+# My Shared Compendia dnd4e
 
-A Foundry VTT module to share Data between worlds via compendia for Pathfinder 2e worlds.
+A Foundry VTT module to share Data between worlds via compendia for D&D 4e worlds.
 
 ## Installation
 
 1. Go to the Add-on Modules tab within the FoundryVTT Configuration and Setup page.
 2. Click the `Install Module` button.
-3. Paste the Module's [Manifest URL](https://github.com/HonzoNebro/My-Shared-Compendia-PF2e/releases/download/v11/module.json)
+3. Paste the Module's [Manifest URL](https://github.com/HonzoNebro/My-Shared-Compendia-dnd4e/releases/download/v11/module.json)
    into the `Manifest URL` field.
 4. Click the `Install` button.
 
@@ -23,7 +23,7 @@ A Foundry VTT module to share Data between worlds via compendia for Pathfinder 2
      - Locked:  
        ![locked-module](resources/images/locked-module.webp)
 - Option 2: Updating your `module.json` file:
-  1. Go to the Module's installation folder within foundry (`~/Data/modules/My Shared Compendia PF2e`) and update the `module.json` file.
+  1. Go to the Module's installation folder within foundry (`~/Data/modules/My Shared Compendia dnd4e`) and update the `module.json` file.
   2. Remove lines 68-69 (`download` and `manifest`) and save the file.
   3. Restart Foundry to reload the module.
 
@@ -60,18 +60,18 @@ For example:
   "packs": [
     {
       "name": "monsters",
-      "system": "pf2e",
+      "system": "dnd4e",
       "label": "Monsters",
       "path": "./packs/monsters.db",
-      "module": "my-shared-compendia-pf2e",
+      "module": "my-shared-compendia-dnd4e",
       "type": "Actor"
     },
     {
       "name": "my-custom-items",
-      "system": "pf2e",
+      "system": "dnd4e",
       "label": "My Custom Items",
       "path": "./packs/items.db",
-      "module": "my-shared-compendia-pf2e",
+      "module": "my-shared-compendia-dnd4e",
       "type": "Item"
     }
   ]
@@ -82,7 +82,7 @@ Note: There are no compendium Types for Classes, Feats, and Features in Foundry,
 
 ## Dependencies
 
-- [Pathfinder 2nd Edition](https://github.com/foundryvtt/pf2e) is required: The Game System adds some SRD Compendia.
+- [Pathfinder 2nd Edition](https://github.com/foundryvtt/dnd4e) is required: The Game System adds some SRD Compendia.
 - Using [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders) is highly recommended.
 
 # Credits
