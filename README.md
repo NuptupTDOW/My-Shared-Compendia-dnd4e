@@ -82,7 +82,7 @@ Note: There are no compendium Types for Classes, Feats, and Features in Foundry,
 
 ## Dependencies
 
-- [Pathfinder 2nd Edition](https://github.com/foundryvtt/dnd4e) is required: The Game System adds some SRD Compendia.
+- [D&D 4th Edition](https://github.com/foundryvtt/dnd4e) is required: The Game System adds some SRD Compendia.
 - Using [Compendium Folders](https://github.com/earlSt1/vtt-compendium-folders) is highly recommended.
 
 # Credits
